@@ -16,4 +16,4 @@ chicago.csv
 new_york_city.csv
 
 ### Credits
-Kudos to my friend Mustapha who got me excited to take this course.
+Kudos to my friend Mustapha Kassem who got me excited to take this course.
