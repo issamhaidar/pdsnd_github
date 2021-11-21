@@ -7,7 +7,7 @@
 Bikeshare Python Project
 
 ### Description
-The program is an interactive console that analyzes bikesharing data from 3 different cities
+The program is an interactive console that analyzes bikesharing data from 3 different cities, namely washington, chicago and new york city.
 
 ### Files used
 bikeshare.py
