@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+"Based on the city chosen, the variable opens the right csv file"
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -166,9 +167,9 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
-def user_stats(df):
     """Displays statistics on bikeshare users."""
+def user_stats(df):
+
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -194,7 +195,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+"Main Function"
 def main():
     while True:
         city, month, day = get_filters()
